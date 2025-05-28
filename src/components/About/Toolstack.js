@@ -9,6 +9,8 @@ import {
   SiMacos,
   SiFigma,
   SiTrello,
+  SiLinux,
+  SiGit,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -17,9 +19,17 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiWindows />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <SiGit/>
+      
+      </Col>
 
       <Col xs={4} md={2} className="tech-icons">
         <SiMacos />
+      </Col>
+      <Col xs ={4} md={2} className="tech-icons">
+      <SiLinux/>
+      
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
