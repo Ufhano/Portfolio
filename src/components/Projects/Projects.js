@@ -4,6 +4,8 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 import chatify from "../../Assets/Projects/chatify.png";
+import Tic from "../../Assets/Projects/Tic.jpg"
+import image from "../../Assets/Projects/image.png"
 
 
 function Projects() {
@@ -28,6 +30,27 @@ function Projects() {
               demoLink="https://ufhano.github.io/To-do-Web/"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Tic}
+              isBlog={false}
+              title="Tic-Tac-Toe"
+              description="A classic game of Tic Tac Toe ,challenge a friend or play against the computer in this clean, simple, and responsive web app"
+              ghLink="https://github.com/Ufhano/Tic-Tac-Toe"
+              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={image}
+              isBlog={false}
+              title="Yearly-Progress-Bar"
+              description="See your year in progress ,a motivational glance at how far you've come, and how much time is still ahead"
+              ghLink="https://github.com/Ufhano/Yearly-Progress-Bar"
+              
+            />
+          </Col>
+
 
           
 
